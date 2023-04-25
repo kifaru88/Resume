@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  /* Global Styles */
+  body {
+    font-family: Montserrat;
+    margin: 0;
+  }
+
+  /* Header Styles */
+  header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .contact-details p {
+    margin: 5px;
+  }
+
+  .contact-details a:link {
+    color: blue;
+  }
+
+  .contact-details a:visited {
+    color: red;
+  }
+
+  .contact-details a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
+
+  .contact-details a:active {
+    color: maroon;
+  }
+
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  }
+
+  /* Main Styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  /* Form Styles */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    margin-top: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: inherit;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+</style>
+
+  </head>
+  <body>
+     
+
+    <header>
+      <div class="header-container">
+            <img src="https://scontent.fnbo11-1.fna.fbcdn.net/v/t1.6435-9/174876644_191404916148274_2064012767127574706_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=X7U-GXP9z1AAX9m7tT3&_nc_ht=scontent.fnbo11-1.fna&oh=00_AfAFJ9XFkkn-dp9OuXcv-mFGEQWuOQJWGsTDtrx_PmUioA&oe=646F21B0" alt="My Photo">
+        <h1>Emmanuel Cheboi</h1>
+          <h2>Web Developer</h2>
+        <div class="contact-details">
+            <p>Email: <a href="mailto:you@example.com">emmanuelcheboi17@gmail.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+254700246124</a></p>
+          <p>Location: Nakuru, KE</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/emmanuel-cheboi-7994b5227/">Emmanuelcheboi</a></p>
+          <p>Github: <a href="https://github.com/kifaru88">kifaru88</a></p>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor's degree in Information Technology, Kabarak University</li>
+        </ul>
+      </section>
+      
+      <section id="skills">
+        <h2>Skills and Experience</h2>
+        <ul>
+          <li>Proficient in HTML, CSS, JavaScript, and related technologies</li>
+          <li>Experience with shell navigation and computer troubleshooting</li>
+          <li>Strong problem-solving skills</li>
+        </ul>
+      </section>
+      
+     <section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li>Project 1 - A web application for managing task lists</li>
+    <li>Project 2 - An Online bus booking system</li>
+  </ul>
+</section>
+
+      
+      <section id="leadership">
+        <h2>Leadership Roles</h2>
+        <ul>
+          <li>Assistant technical manager, 2018-2020</li>
+          <li>Assistant IT manager, 2020-2021</li>
+        </ul>
+      </section>
+      
+      <section id="referees">
+        <h2>Referees</h2>
+        <ul>
+          <li>Nancy Smith, Senior Developer at SFDC Company - <a href="mailto:Nsmith@sfdc.com">Nsmith@sfdc.com</a></li>
+          <li>Victor Muturi, Manager at Faze clan Corporation - <a href="mailto:vmuturi.sway@faze.com">vmuturi.sway@faze.com</a></li>
+        </ul>
+      </section>
+  
+<main>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" method="post" action="contact-form-handler.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+<div id="thank-you-msg" class="hidden">Thank you for submitting!</div></main>
+
+<script>
+  // Form validation
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    var nameInput = document.getElementById('name');
+    var emailInput = document.getElementById('email');
+    var messageInput = document.getElementById('message');
+    var thankYouMsg = document.getElementById('thank-you-msg');
+
+    // Check if name, email, and message inputs are not empty
+    if (nameInput.value.trim() === '' || emailInput.value.trim() === '' || messageInput.value.trim() === '') {
+      alert('Please fill in all fields');
+      event.preventDefault(); // Prevent form submission
+    } else {
+      // Show thank you message and prevent form submission
+      thankYouMsg.classList.remove('hidden');
+      setTimeout(function() {
+        thankYouMsg.classList.add('hidden');
+      }, 5000); // Hide the message after 5 seconds
+      event.preventDefault();
+    }
+  });
+</script>
+<style>
+  .hidden {
+    display: none;
+  }
+  #thank-you-msg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #808080;
+    color: white;
+    font-size: 15pxpx;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+  }
+</style>
+    
+
+    <footer>
+      &copy; 2023 Emmanuel Cheboi. All rights reserved.
+    </footer>
+  </body>
+</html>
